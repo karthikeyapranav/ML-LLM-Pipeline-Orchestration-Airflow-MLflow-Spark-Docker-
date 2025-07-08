@@ -71,7 +71,7 @@ This section automates an end-to-end machine learning workflow for predicting wi
 * **Production Model Serving:** The latest production-ready model from MLflow is automatically loaded and served via a dedicated FastAPI endpoint for real-time inference.
 * **Containerized Environment:** The entire ML pipeline (Airflow, Spark, MLflow, FastAPI) runs seamlessly within Docker containers, guaranteeing consistent environments across development and production.
 
-### ⚙️ How to Run Part A:
+###  How to Run Part A:
 
 1.  **Ensure Docker Desktop is running.**
 2.  **Navigate to the root directory** of the project: `ML_LLM_Pipeline/`.
@@ -98,7 +98,7 @@ This section implements a Retrieval-Augmented Generation (RAG) system, enabling 
 * **FastAPI Q&A Interface:** A dedicated FastAPI endpoint (`/rag-query/`) provides a clean REST interface for interacting with the RAG system.
 * **Self-Contained Deployment:** The entire RAG component is independently containerized using its own `Dockerfile` and `docker-compose.yml` within the `rag/` directory, ensuring modularity and easy integration.
 
-### ⚙ How to Run Part B:
+###  How to Run Part B:
 
 1.  **Navigate to the RAG directory:**
     ```bash
