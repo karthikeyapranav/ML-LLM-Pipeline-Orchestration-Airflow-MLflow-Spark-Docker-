@@ -1,4 +1,4 @@
-# 🚀 End-to-End ML + LLM Pipeline Orchestration
+#  End-to-End ML + LLM Pipeline Orchestration
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Built with Docker](https://img.shields.io/badge/Built%20with-Docker-blue.svg)](https://www.docker.com/)
@@ -10,7 +10,7 @@ This project presents a robust, full-cycle orchestration pipeline designed for b
 
 ---
 
-## 🌟 Features at a Glance
+##  Features at a Glance
 
 * **Complete MLOps Cycle:** From raw data to deployed model, experience an end-to-end automated workflow.
 * **Hybrid AI Approach:** Seamlessly integrates a classical ML model with a cutting-edge RAG-style LLM.
@@ -36,7 +36,7 @@ This project presents a robust, full-cycle orchestration pipeline designed for b
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ML_LLM_PIPELINE/
 ├── airflow/                 # Airflow DAGs for ML pipeline orchestration
@@ -59,11 +59,11 @@ ML_LLM_PIPELINE/
 
 ---
 
-## 🍷 Part A: Wine Quality Prediction (ML Pipeline)
+##  Part A: Wine Quality Prediction (ML Pipeline)
 
 This section automates an end-to-end machine learning workflow for predicting wine quality.
 
-### ✨ Key Features:
+###  Key Features:
 
 * **Automated Training DAG:** An Apache Airflow DAG orchestrates the entire ML training process, from data preparation to model registration.
 * **Scalable Data Transformation:** Leverages PySpark for efficient and scalable data preprocessing and feature engineering.
@@ -86,11 +86,11 @@ This section automates an end-to-end machine learning workflow for predicting wi
 
 ---
 
-## 🧠 Part B: RAG-style LLM Pipeline (Mini POC)
+##  Part B: RAG-style LLM Pipeline (Mini POC)
 
 This section implements a Retrieval-Augmented Generation (RAG) system, enabling a small open-source LLM to answer questions based on custom, ingested documents.
 
-### ✨ Key Features:
+###  Key Features:
 
 * **Document Ingestion:** Supports loading and processing various document types (e.g., PDF, CSV).
 * **Semantic Search:** Utilizes `sentence-transformers` for creating robust embeddings and FAISS as a high-performance vector database for efficient semantic retrieval of relevant document chunks.
@@ -111,7 +111,7 @@ This section implements a Retrieval-Augmented Generation (RAG) system, enabling 
     ```bash
     python ingest.py
     ```
-    You should see confirmation like: `✅ Indexed X chunks from: rag/data/Global warming.pdf.`
+    You should see confirmation like: ` Indexed X chunks from: rag/data/Global warming.pdf.`
 4.  **Build the Docker Image:**
     ```bash
     docker-compose build rag-app
@@ -140,19 +140,19 @@ This section implements a Retrieval-Augmented Generation (RAG) system, enabling 
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! If you have suggestions for improvements, new features, or bug fixes, please open an issue or submit a pull request.
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 * The open-source community for providing these amazing tools.
 * Your inspiration for making this README more beautiful!
