@@ -22,7 +22,7 @@ This project presents a robust, full-cycle orchestration pipeline designed for b
 
 ---
 
-## 🛠️ Core Technologies
+##  Core Technologies
 
 | Category      | Technology            | Description                                            |
 | :------------ | :-------------------- | :----------------------------------------------------- |
@@ -98,7 +98,7 @@ This section implements a Retrieval-Augmented Generation (RAG) system, enabling 
 * **FastAPI Q&A Interface:** A dedicated FastAPI endpoint (`/rag-query/`) provides a clean REST interface for interacting with the RAG system.
 * **Self-Contained Deployment:** The entire RAG component is independently containerized using its own `Dockerfile` and `docker-compose.yml` within the `rag/` directory, ensuring modularity and easy integration.
 
-### ⚙️ How to Run Part B:
+### ⚙ How to Run Part B:
 
 1.  **Navigate to the RAG directory:**
     ```bash
