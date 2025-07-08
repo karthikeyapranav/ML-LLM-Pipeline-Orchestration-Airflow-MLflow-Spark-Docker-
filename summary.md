@@ -36,7 +36,7 @@ This project delivers an end-to-end automated pipeline for both traditional Mach
 
 ---
 
-## ⚙️ Development Setup & Considerations
+##  Development Setup & Considerations
 
 * **Local Development:** The setup uses lightweight SQLite for Airflow and Docker volumes for persistent storage of logs, model files, and the FAISS index, facilitating easy local development and quick iteration.
 * **Production Scalability:** For production environments, the setup is designed to be easily upgraded by replacing SQLite with PostgreSQL and adopting a CeleryExecutor for Airflow, enabling distributed task execution.
