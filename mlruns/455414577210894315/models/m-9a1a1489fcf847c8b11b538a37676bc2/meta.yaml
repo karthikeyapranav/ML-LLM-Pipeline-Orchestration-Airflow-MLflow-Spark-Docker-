@@ -1,0 +1,10 @@
+artifact_location: file:///D:/ML_LLM_Pipeline/mlruns/455414577210894315/models/m-9a1a1489fcf847c8b11b538a37676bc2/artifacts
+creation_timestamp: 1751884393079
+experiment_id: '455414577210894315'
+last_updated_timestamp: 1751884400795
+model_id: m-9a1a1489fcf847c8b11b538a37676bc2
+model_type: null
+name: model
+source_run_id: 675f7a9aada74dfc95d489156fe74089
+status: 2
+status_message: null

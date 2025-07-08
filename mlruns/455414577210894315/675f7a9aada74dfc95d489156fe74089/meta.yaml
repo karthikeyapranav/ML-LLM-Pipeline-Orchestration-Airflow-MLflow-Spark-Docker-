@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/ML_LLM_Pipeline/mlruns/455414577210894315/675f7a9aada74dfc95d489156fe74089/artifacts
+end_time: 1751884401050
+entry_point_name: ''
+experiment_id: '455414577210894315'
+lifecycle_stage: active
+run_id: 675f7a9aada74dfc95d489156fe74089
+run_name: awesome-pig-516
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751884392778
+status: 3
+tags: []
+user_id: dell

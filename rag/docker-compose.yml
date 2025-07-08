@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  rag-app:
+    build:
+      context: . # Build context is the current directory (rag/)
+      dockerfile: Dockerfile # Dockerfile is in the current directory (rag/)
+    ports:
+      - "8002:8002"
+    volumes:
+      # Mount the data and vectorstore directories relative to the current context (rag/)
+      - ./data:/app/data
+      - ./vectorstore:/app/vectorstore
+    environment:
+      PYTHONUNBUFFERED: 1

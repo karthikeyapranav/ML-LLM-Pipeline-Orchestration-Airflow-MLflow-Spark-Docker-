@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/ML_LLM_Pipeline/mlruns/455414577210894315/a08318002dc844ea803bc47a21dda452/artifacts
+end_time: 1751883285163
+entry_point_name: ''
+experiment_id: '455414577210894315'
+lifecycle_stage: active
+run_id: a08318002dc844ea803bc47a21dda452
+run_name: bustling-jay-560
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751883256683
+status: 3
+tags: []
+user_id: dell
